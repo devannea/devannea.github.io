@@ -1,0 +1,46 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+.stressReliever {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #DB6B5C;
+}
+.kittyKontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kitty {
+    width: 20%;
+}
+.patcount {
+    font-size: 16px;
+}
+#text {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    color: white;
+    background: #F4BE82;
+    border: none;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+#save {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    background-color: #F4BE82;
+    color: white;
+    border: 3px solid #DB6B5C;
+}
+#load {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    background-color: #F4BE82;
+    color: white;
+    border: 3px solid #DB6B5C;
+}

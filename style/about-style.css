@@ -1,0 +1,254 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+    background-color: #131418;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+}
+header {
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+nav > a {
+    color: #2D303A;
+    margin-top: 2%;
+    margin-right: 3%;
+    text-decoration: none;
+}
+nav > a:hover {
+    color: #ffffff;
+}
+#active {
+    color: #0EBEFF;
+}
+main {
+    color: #ffffff;
+    margin: 3%;
+    padding: 5%;
+    background-color: #2D303A;
+}
+.container1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container2 {
+    margin-right: 2%;
+}
+.me {
+    border-radius: 50%;
+}
+.html {
+    width: 5%;
+    margin-right: 2%;
+}
+.css {
+    width: 5%;
+    margin-right: 2%;
+}
+.svg {
+    width: 5%;
+    margin-right: 2%;
+}
+.wireframe {
+    width: 5%;
+    margin-right: 2%;
+}
+.responsive {
+    width: 5%;
+    margin-right: 2%;
+}
+.photoshop {
+    width: 5%;
+    margin-right: 2%;
+}
+.vsc {
+    width: 5%;
+}
+.unrelated {
+    color: #131418;
+}
+.baking {
+    width: 5%;
+    margin-right: 2%;
+}
+.calligraphy {
+    width: 5%;
+    margin-right: 2%;
+}
+.digitalart {
+    width: 5%;
+    margin-right: 2%;
+}
+.makeup {
+    width: 5%;
+    margin-right: 2%;
+}
+.music {
+    width: 5%;
+    margin-right: 2%;
+}
+.origami {
+    width: 5%;
+    margin-right: 2%;
+}
+.photography {
+    width: 5%;
+    margin-right: 2%;
+}
+.stationery {
+    width: 5%;
+    margin-right: 2%;
+}
+.videogames {
+    width: 5%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    width: 100%;
+}
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 8%;
+}
+.github {
+    width: 50px;
+    border-radius: 50%;
+}
+.linkedin {
+    width: 50px;
+    border-radius: 50%;
+}
+@media (max-width:450px) {
+    header {
+        font-size: 16px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 5%;
+        padding: 2%;
+    }
+    .container1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .me {
+        width: 150px;
+    }
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .html {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .css {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .svg {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .wireframe {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .responsive {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .photoshop {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .vsc {
+        width: 25%;
+    }
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .baking {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .calligraphy {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .digitalart {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .makeup {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .music {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .origami {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .photography {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .stationery {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+    .videogames {
+        width: 25%;
+    }
+    footer {
+        margin: 0;
+    }
+    .socialmedia {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        width: 100%;
+    }
+    .github {
+        width: 70px;
+        border-radius: 50%;
+    }
+    .linkedin {
+        width: 70px;
+        border-radius: 50%;
+    }
+}

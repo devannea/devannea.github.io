@@ -1,0 +1,25 @@
+input {
+    width: 119.5px;
+    margin-left: 1px;
+    padding-left: 3px;
+    font-family: 'Catamaran', sans-serif;
+    border: none;
+    background-color: #2D303A;
+    color: white;
+}
+.button {
+    border: none;
+    background-color: #2D303A;
+    color: white;
+    width: 26px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Catamaran', sans-serif;
+}
+.notaNumber {
+    background-color: #0EBEFF;
+}
+#equals {
+    background-color: white;
+    color: #2D303A;
+}
