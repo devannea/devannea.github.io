@@ -1,7 +1,26 @@
-body {
-  font-family: 'Catamaran', sans-serif;
-  background-color: #131418;
+html {
+  background-image: linear-gradient(to bottom, rgb(255, 153, 153)
+  , rgb(255, 204, 102));
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin: 0;
+  background-size: cover;
+  height: 100%;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 14px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.cat {
+  background-image: url("/images/puppycat_no_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin: 5% 15%;
+  padding: 10% 7%;
+  border-radius: 10%;
 }
