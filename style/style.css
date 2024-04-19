@@ -15,7 +15,7 @@ body {
   color: rgba(0, 0, 0, 0.5);
 }
 .cat {
-  background-image: url("/images/puppycat_no_background.png");
+  background-image: url("/assets/images/puppycat_no_background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

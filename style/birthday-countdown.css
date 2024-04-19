@@ -1,0 +1,31 @@
+html {
+    font-family: "Varela Round", sans-serif;
+    background-color: #F875AA;
+}
+#box {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    color: #FFDFDF;
+}
+h2 {
+    color: #AEDEFC;
+}
+p {
+    color: #FFF6F6;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.album {
+    border: 10px solid #FFF6F6;
+    border-radius: 15px;
+}
+#pic-1, #pic-2, #pic-6, #pic-7, #pic-8, #pic-9, #pic-10 {
+    width: 45%;
+}
+#pic-3, #pic-4, #pic-5 {
+    width: 100%;
+}
