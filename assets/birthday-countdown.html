@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/birthday-countdown.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Birthday Countdown</title>
+</head>
+<body>
+    <div id="box">
+        <h1>Bubby's Birthday Countdown</h1>
+        <h2>Days Until Bubby's Birthday:</h2>
+        <p id="days-left"></p>
+        <a href="">
+            <h3>Bubby's Birthday Wishlist</h3>
+        </a>
+        <script>
+        // set date
+        var birthdayDate = new Date("Sep 21, 2024");
+        // update the count each day
+        var x = setInterval(function() {
+            // get today's date
+            var now = new Date().getTime();
+            // find distance between now and birthday
+            var distance = birthdayDate - now;
+            // time calculation for days
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            // display result
+            document.getElementById("days-left").innerHTML = days;
+        }, 1000);
+        </script>
+        <h2>Past Birthday Album</h2>
+        <img class="album" id="pic-1" src="../assets/images/bub-hat.PNG" alt="Bubby in a birthday hat">
+        <img class="album" id="pic-2" src="../assets/images/bub-cake.PNG" alt="">
+        <img class="album" id="pic-3" src="../assets/images/bub-cake-spread.PNG" alt="">
+        <img class="album" id="pic-4" src="../assets/images/bub-tilt.PNG" alt="">
+        <img class="album" id="pic-5" src="../assets/images/bub-tongue.PNG" alt="">
+        <img class="album" id="pic-6" src="../assets/images/bub-table.jpeg" alt="">
+        <img class="album" id="pic-7" src="../assets/images/bub-cake-3.jpeg" alt="">
+        <img class="album" id="pic-8" src="../assets/images/bub-eye-cake.PNG" alt="">
+        <img class="album" id="pic-9" src="../assets/images/three-dog-bakery.HEIC" alt="">
+        <img class="album" id="pic-10" src="../assets/images/itty-bitty-cake.HEIC" alt="">
+    </div>
+</body>
+</html>
