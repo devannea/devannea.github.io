@@ -3,14 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:800" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Devanne Aceves</title>
 </head>
 <body>
-    <div class="cat">
-        <h1>Coming Soon<br><br>- Devanne</h1>
+    <div class="container py-3">
+        <!-- nav bar -->
+        <header>
+          <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+                <h1>Devanne Aceves</h1>
+            </a>
+      
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+              <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Projects</a>
+              <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="./assets/resume.html">Résumé</a>
+              <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Blog</a>
+              <a class="py-2 link-body-emphasis text-decoration-none" href="#">Buy me a coffee <img src="./assets/images/cup.svg" alt="cup icon"></a>
+            </nav>
+          </div>
+        </header>
+        <!-- main content -->
+        <main>
+            <div class="p-3 pb-md-4 mx-auto text-align-left">
+                <p class="fs-5 text-body-secondary">Hey friend, welcome to my website!<br>My name is Devanne Aceves. I was born and raised in Midland, TX. After graduating from college, I moved around Texas a lot, spending at least a year in different cities - Lubbock, Abilene, Austin - before moving back to Midland.</p>
+                <p class="fs-5 text-body-secondary">My first experience trying to learn to code was during the summer of 2018. I had an account on a wesbite for artists to share their work online. At the time, this site had a really neat feature that allowed users to customize their page using HTML and CSS. Back then, I had no idea what coding languages were and was completely oblivious to how these lines of text worked. I just followed guides that other users had posted, copying and pasting lines of code but changing bits here and there to add colorful backgrounds, display badges, and any other decorations that I thought were cute. I soon realized that I had unintentionally stumbled into coding and wanted to learn more.</p>
+                <p class="fs-5 text-body-secondary">During the fall of that year, I had started working as a cashier for a grocery store in Lubbock, TX. Shortly after I had been hired on, so was another cashier. When I mentioned to my coworker that I was trying to learn to code on my own, he informed me that he was actually going to be the campus director for a new coding bootcamp: <a class="link-primary text-decoration-none" href="https://www.southplainscollege.edu/community/continuinged/codingacademy.php">Lubbock Coding Academy</a> and that his time working as a cashier was temporary during his transition. Looking back, it was really a right place at the right time sort of moment. I was the first to sign up for the program and had the opportunity to speak on my experience in an <a class="link-primary text-decoration-none" href="https://www.kcbd.com/2019/02/05/lubbock-coding-academy-meets-need-web-developers-area/">interview</a> with KCBD. Before the fall of 2019, I was given the opportunity to work as a lead teacher for LCA's Early Code afterschool program. I really enjoyed my time working with the students of Dunbar College Preparatory Academy. It was a rewarding experience, and so incredibly meaningful and impactful.</p>
+                <p class="fs-5 text-body-secondary">Outside of web development, I really enjoy creating digital art with my drawing tablet, singing at karaoke spots, reading books on my Kindle (send me your book recommendations), cycling on my hybrid bike (<a class="link-primary text-decoration-none" href="http://strava.app.link/6hbcQXIQ7Ib">follow me on Strava</a>), and most importantly being a dog mom to my shih tzu Bubby. I like to play videogames, primarily on my Nintendo Switch, Xbox, and really any game my little laptop can handle. I'm also a huge fan of horror movies - especially watching in theaters!<br>Thank you for taking the time to read and feel free to reach out on my socials!</p>
+            </div>
+        </main>
+        <!-- footer -->
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+          <div class="row">
+            <div class="col-12 col-md">
+              <h4>Devanne Aceves</h4>
+              <h5 class="text-body-secondary">Social Media</h5>
+              <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-primary text-decoration-none" href="https://www.linkedin.com/in/devanne-aceves"><img src="./assets/images/linkedin.svg" alt="linkedin icon"> LinkedIn</a></li>
+                <li class="mb-1"><a class="link-primary text-decoration-none" href="https://github.com/devannea"><img src="./assets/images/github.svg" alt="github icon"> Github</a></li>
+                <li class="mb-1"><a class="link-primary text-decoration-none" href="https://www.instagram.com/devanneaceves/"><img src="./assets/images/instagram.svg" alt="instagram icon"> Instagram</a></li>
+              </ul>
+              <small class="d-block mb-3 text-body-secondary">Getting better every day.</small>
+            </div>
+          </div>
+        </footer>
     </div>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
